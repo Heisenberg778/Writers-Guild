@@ -40,6 +40,7 @@ hr {
     height: 1px;
     background-color: #e8e6e6;
     margin-top: 25px;
+    margin-left: 18px; 
 }
         .upper-div {
             background-color: rgba(211, 211, 211, 0.27);
@@ -126,6 +127,7 @@ a:hover{
     z-index: 2;
 }
 
+
 .wrapper {
   
     max-width: 2000px;
@@ -141,6 +143,8 @@ a:hover{
 
 .sub-header h1 {
     color: #969696;
+    position: relative;
+    left: 20px;
 }
 
 .sub-header hr {
@@ -155,7 +159,6 @@ a:hover{
 
 
 td {
-    background: url(photos/bm.jpg);
     height: 350px;
     width: 300px;
     position: relative;
@@ -164,10 +167,7 @@ td {
     transform: translate(-20px);
     opacity: 0;
     transition: all 0.3s ease-in-out;
-}
-
-.photos {
-    
+    overflow: hidden;
 }
 
 .is-showing {
@@ -326,4 +326,33 @@ li{
     height: 2px;
     background-color: #1e1e1e;
     content: '';
+}
+
+figcaption{
+    position: absolute;
+    bottom: 50px;
+    left: -100%;
+    padding: 2px 8px;
+    font-family: "Julius Sans One";
+    text-transform: uppercase;
+    background-color: #1e1e1e;
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+.photo:hover figcaption {
+    left: 0%;
+}
+
+img {
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+}
+
+.photo:hover img {
+    transform: scale(1.07);
+}
+
+.dot-display {
+    background-color: #7c7c7c;
 }
