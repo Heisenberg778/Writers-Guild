@@ -202,7 +202,7 @@ li{
 
 #first{
     position: fixed;
-    left: 19%;
+    left: 360px;
     top:  287px;
     background-color: #1e1e1e;
     color: white;
@@ -255,7 +255,7 @@ li{
 
 #second {
     position: fixed;
-    left: 19%;
+    left: 360px;
     top:  375px;
     background-color: #1e1e1e;
     color: white;
@@ -280,7 +280,7 @@ li{
 
 #third {
     position: fixed;
-    left: 19%;
+    left: 360px;
     top:  460px;
     background-color: #1e1e1e;
     color: white;
@@ -305,7 +305,7 @@ li{
 
 #fourth {
     position: fixed;
-    left: 19%;
+    left: 360px;
     top:  547px;
     background-color: #1e1e1e;
     color: white;
@@ -355,4 +355,19 @@ img {
 
 .dot-display {
     background-color: #7c7c7c;
+}
+
+.lower-div h1 {
+    position: relative;
+    bottom: 400px;
+}
+
+.lower-div hr {
+       height: 2px;
+    width: 1000px;
+    position: relative;
+    left: 450px;
+    bottom: 650px;
+    background-color: #969696;
+    margin-top: 5px;
 }
