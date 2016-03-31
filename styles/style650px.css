@@ -1,0 +1,9 @@
+li {
+  width: 100%;
+}
+
+nav > ul > li > a {
+  width: 100%;
+  box-shadow: none;
+  border: 1px solid black;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+    <link rel="stylesheet" media="screen and (max-width: 650px)" href="styles/style650px.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="scripts/scrollAnimation.js"></script>
+<!--    <script src="scripts/parallax.js"></script>-->
+<!--    <script src="scripts/script.js"></script>-->
+    <title>Writer's Guild</title>
+  </head>  
+  <body>
+  	<header>
+    	<nav>
+        <ul id="nav_ul">
+          <li><a href="#logo-outer">Welcome</a></li>
+          <li><a href="#our-mission-outer">Our Mission</a></li>
+          <li><a href="#team-outer">Team</a></li>
+          <li><a href="#writers-outer">Writers</a></li>
+          <li><a href="#contact-us-outer">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+   	<main>
+<!--
+      <div id="location-panel">
+      	<ul>
+        	<div class="hoverdiv"><li id="li1" name="#logo-outer"><h6 id='first'>Welcome</h6></li></div>     
+        	<div class="hoverdiv"><li id="li2" name="#our-mission-outer"><h6 id='second'>Our Mission</h6></li></div>
+        	<div class="hoverdiv"><li id="li3" name="#team-outer"><h6 id='third'>Team</h6></li></div>
+        	<div class="hoverdiv"><li id="li4" name="#writers-outer"><h6 id='fourth'>Writers</h6></li></div>
+        	<div class="hoverdiv"><li id="li5" name="#contact-us-order"><h6 id='fifth'>Contact Us</h6></li></div>
+        </ul>
+      </div>
+-->
+      <div id="logo-outer">
+      	<img id="logo" onload="this.style.opacity='1';" src="media/images/logos/logo2.png" alt="Logo">
+      </div>
+      <div id="our-mission-outer">
+      	<h2>Our Mission</h2>
+      	<div id="our-mission-inner">
+      	  <p>
+      		  AUBG Writer's Guild is striving to promote the writing potential of the AUBG community.
+      	  </p>
+      	</div>
+      </div>
+      <div id="team-outer">
+      	<h2>Members</h2>
+<!--        <hr class="event-trig">-->
+       <div id="team-inner">
+        	<table>
+      			<tr>
+      				<td class="photo"><img src="media/images/team/ivaylo.jpg"><figcaption>Ivaylo Urdev</figcaption></td>
+      				<td class="photo"><img src="media/images/team/nadia.jpg"><figcaption>Nadia Dimitrova</figcaption></td>
+      				<td class="photo"><img src="media/images/team/boris.jpg"><figcaption>Boris Bankov</figcaption></td>
+      			</tr>
+      			<tr>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      			</tr>
+      			<tr>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      				<td class="photo"><img src="media/images/bm.jpg"><figcaption>Name/Lastname</figcaption></td>
+      			 </tr>
+  				  </table>
+      	  </div>
+			  </div>
+      </div>
+    	<div id="writers-outer">
+      	<h2>Writers</h2>
+        <div id="writers-inner">
+        
+        </div>
+      </div>
+		</main>
+    <footer>
+    	<div id="contact-us-outer">
+     		<h2>Contact Us</h2>
+     		<div id="contact-us-inner">
+     		  
+     		</div>
+      </div>
+    </footer>
+<!--
+    <script type="text/javascript">
+          (function() {
+  
+              var documentEl = $(document),
+                  parallaxBg = $('div#writers-outer');
+  
+              documentEl.on('scroll', function() {
+                  var currScrollPos = documentEl.scrollTop();
+                  parallaxBg.css('background-position', '0 ' + -currScrollPos / 7 + 'px');
+              });
+  
+  
+  
+          })();
+          
+          (function() {
+  
+              var documentHeader = $(document),
+                  parallaxHD = $('div#logo-outer');
+  
+              documentHeader.on('scroll', function() {
+                  var scrollPos = documentHeader.scrollTop();
+                  parallaxHD.css('background-position', '0 ' + -scrollPos/ 7 + 'px');
+              });
+  
+  
+  
+          })();
+  	</script>
+-->
+  </body>
+</html>
+
